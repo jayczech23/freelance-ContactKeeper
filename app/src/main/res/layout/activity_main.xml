@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/LastNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="14dp"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:hint="Last Name" />
+        <!--tools:layout_editor_absoluteX="17dp"-->
+        <!--tools:layout_editor_absoluteY="0dp"-->
+
+
+    <EditText
+        android:id="@+id/FirstNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="First Name" />
+        <!--tools:layout_editor_absoluteX="17dp"-->
+        <!--tools:layout_editor_absoluteY="41dp" -->
+
+
+    <EditText
+        android:id="@+id/Address1Edit"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Address 1" />
+    <!--tools:layout_editor_absoluteX="17dp"-->
+        <!--tools:layout_editor_absoluteY="79dp"-->
+
+    <EditText
+        android:id="@+id/Address2Edit"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Address 2" />
+        <!--tools:layout_editor_absoluteX="17dp"-->
+        <!--tools:layout_editor_absoluteY="117dp" -->
+
+
+    <EditText
+        android:id="@+id/CityEdit"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="City" />
+        <!--tools:layout_editor_absoluteX="17dp"-->
+        <!--tools:layout_editor_absoluteY="155dp" -->
+
+
+    <EditText
+        android:id="@+id/StateEdit"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="State" />
+        <!--tools:layout_editor_absoluteX="17dp"-->
+        <!--tools:layout_editor_absoluteY="193dp" -->
+
+
+    <EditText
+        android:id="@+id/ZipEdit"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Zip" />
+        <!--tools:layout_editor_absoluteX="17dp"-->
+        <!--tools:layout_editor_absoluteY="231dp" -->
+
+
+    <EditText
+        android:id="@+id/CountryEdit"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Country" />
+        <!--tools:layout_editor_absoluteX="17dp"-->
+        <!--tools:layout_editor_absoluteY="266dp" -->
+
+
+    <EditText
+        android:id="@+id/PhoneNumberEdit"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Phone Number" />
+        <!--tools:layout_editor_absoluteX="17dp"-->
+        <!--tools:layout_editor_absoluteY="307dp" -->
+
+
+    <EditText
+        android:id="@+id/EmailEdit"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/main_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="Main" />
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:visibility="invisible"
+            android:text="DELETE"
+            android:textStyle="bold"
+            android:textColor="#FFEBEE"
+            android:backgroundTint="#F44336"/>
+    </LinearLayout>
+
+</LinearLayout>
